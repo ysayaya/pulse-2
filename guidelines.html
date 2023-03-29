@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  
+<style>
+
+   /*trying something do not remove*/
+   html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  /*font sizes*/
+  h1 {
+    font-size: 60px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background: white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* cards */
+
+html {
+  box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #26917F;
+}
+
+  
+  </style>
+</head>
+
+<body>
+  <br>
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="PulseLogoTopWebsite different colours.png" alt="PulseLogo">
+</br>
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Pulse</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="poetrysubmissions.html" class="w3-bar-item w3-button">I.</a>
+            <a href="fictionsubmissions.html" class="w3-bar-item w3-button">II.</a>
+            <a href="nonfictionsubmissions.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">SubmissionGuidelines</a>
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Pulse</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="poetrysubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="fictionsubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="nonfictionsubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot2-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+  <br>
+
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+        <h2><b>"Language-based submissions from <u>BFA Creative Writing majors & minors.</u>"</b></h2>
+        <br>
+        <h3><b>Submission Guidelines</b></h3>
+        
+        <p>OCADU’s Creative Writing Program’s annual journal Pulse is currently <b><u>closed</u></b> for submissions. Please wait until our next issue for an updated guideline.</p>
+        <p><b>The following details the guidelines for the <i>Pulse</i> 2nd Issue:</b></p>
+            <p>We are looking for previously unpublished language based submissions from BFA Creative Writing majors and minors:</p>
+            <p><u>Poetry</u>: 1-5 poems (all in one document)</p>
+            <p><u>Prose</u>: maximum 1200 words</p>
+            <p><u>Audio / Video</u>: no more than 5 minutes</p>
+            <p>Excerpts of longer works can be accepted as long as they can stand alone. All work submitted must be previously unpublished. Simultaneous submissions are okay, but please let us know as soon as your work has been accepted elsewhere so we may wish you congratulations!</p>
+            <p>We ask for first-time North American rights for accepted pieces. Following publication, all rights revert back to the author. Please note that your work first appeared in Pulse if it is reprinted elsewhere on the web or in print.</p>
+            <p>Please include a brief cover letter in your submission with your name, pronouns, the genre of your submission, and a two-sentence author bio written in third person. Do not include your name or any other identifying information in your document or file name. Please include any appropriate trigger warnings, note that we will not accept any graphic violence, graphic erotica, “trauma-porn,” work that is explicitly racist, homophobic, transphobic, antisemitic, islamophobic, or any other work designed to cause harm. Exercise your best judgment as to what work reflects both you as a writer as well as the community you write within.</p>
+        
+                <h2><b>How can I submit?</b></h2>
+              <p>Submittable is a free online platform designed to bring ease of access to writers in submitting their work for publication and writing opportunities. Sign up for a free submittable account to get started on your Pulse 2023 submission! Follow the instructions on the submittable application to ensure your submission is received and we get to read your wonderful work!</p>
+              <p><a style="text-decoration: none" a href="https://pulse.submittable.com/submit" button class="button">Submit</button></a></p>
+            </div>
+              </div>
+              </div>
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>

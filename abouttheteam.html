@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body {font-family: Arial, Helvetica, sans-serif}
+.mySlides {display: none}
+</style>
+</head>
+<body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 15px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* cards */
+
+html {
+  box-sizing:border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+</style>
+</head>
+
+<body>
+  <br>
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="PulseLogoTopWebsite.jpg" alt="PulseLogo">
+</br>
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+<div class="w3-middle">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Pulse</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="poetrysubmissions.html" class="w3-bar-item w3-button">I.</a>
+        <a href="fictionsubmissions.html" class="w3-bar-item w3-button">II.</a>
+        <a href="nonfictionsubmissions.html" class="w3-bar-item w3-button">III.</a>
+        <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+      </div>
+    </div>
+    <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+  </div>
+</div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Pulse</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="poetrysubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="fictionsubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II </a>
+  <a href="nonfictionsubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+
+  
+</div>
+
+
+<!--side column!-->
+  <div class="row">
+  <div class="side">
+     <br>
+     <img src="Pulse_Divider_Spot2-modified.png" alt="PulseLogo8" height="150px"></br>
+     <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  </h3>
+  
+  <h4>Follow us!</h4>
+
+        </div>
+        
+  <!--main column!-->
+  <div class="main">
+
+    <h2><b>The Team</b></h2>
+
+    <p>Get to know us! Don't be shy! And don't be afraid to contact us either.</p>
+
+    <div class="row">
+      <div class="card">
+      <div class="container">
+      <h4><b>Catherine</b></h4> 
+      <p>Faculty Lead</p>
+      <p>Catherine Black is Associate Professor and Chair of the Creative Writing BFA program at OCAD University. Catherine’s first collection of prose poetry Lessons of Chaos and Disaster was the second book in Guernica Edition’s “First Poets Series,” and her lyric nonfiction novella A Hard Gold Thread (Guernica, 2011) was nominated for the ReLit award. Her third book,  Bewilderness, was nominated for the Pat Lowther Memorial Award.  Broadly speaking, Catherine’s areas of interest and expertise in creative writing include experimentations in prose poetry and other hybrid forms such as the lyric essay and longer experimental fiction. Thematically, her work interrogates the reliability of memory, the intersections of imagination and reality, as well as issues of motherhood, ‘madness,’ and the dissociative aspects of grief and trauma.</p>
+      <p><button class="button">more coming soon</button></p>
+
+      </div>
+      </div>
+      </div>
+      
+      <br>
+
+    <div class="row">
+    <div class="card">
+        <div class="container">
+        <h4><b>Avi</b></h4> 
+        <p>Editor in Chief</p> 
+        <p>Avishai Sol is a writer, musician, and journalist. He's worked with Raptors Rapture, The OCAD U Sports Report, The Centre for Mindfulness, and has published many works of fiction. Either by telling his own stories or helping others to tell their own, Avishai's considers it his mission to create as much and as great art as he can.</p>
+        <p><button class="button">more coming soon</button></p>
+        </div>
+         </div>
+         </div>
+        
+        <br>
+
+         <div class="row">
+          <div class="card">
+              <div class="container">
+              <h4><b>Claire</b></h4> 
+              <p>Managing Editor</p> 
+              <p>Claire is a writer, actress, and third year Creative Writing student. After doing two years at McGill for History, she transferred to OCAD where she has been able to moderate open mics, participate in the Toronto Authors Festival, and have her work featured in numerous journals. Her dream is to be an author and to be able to spell simultaneously without text-to-speech.</p>
+              <p><button class="button">more coming soon</button></p>
+              </div>
+               </div>
+               </div>
+            
+          <br>
+                 <div class="row">
+                    <div class="card">
+                    <div class="container">
+                    <h4><b>Ivy</b></h4> 
+                    <p>Editor</p>
+                    <p>Ivy is a writer, reader and aggresive trophy hunter. She can be found at work convincing strangers to try her favourite books or trying to easily explain the narrative arcs of her favourite video games. When she remembers, she publishes work under the name, Ivy B. Her short fiction and poetry has been featured in Potted Purple, Kiwi and Room. She's currently working as a submission reader for Room Magazine and trying her best to finish her novella.</p>
+                    <p><button class="button">more coming soon</button></p> 
+                    </div>
+                    </div>
+                    </div>
+            <br>
+    
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Nick</b></h4> 
+                        <p>Editor</p>
+                        <p>Nick is a third year Creative Writing Major at OCAD U. He is well versed in the four genres; his work focuses around horror-fantasy short fiction, transgressive non-fiction, screenwriting, and prose-poetry.</p>
+                        <p><button class="button">more coming soon</button></p> 
+                        </div>
+                        </div>
+                        </div>
+              <br>
+    
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Miranda</b></h4> 
+                        <p>Editor</p>
+                        <p>Miranda is a third year creative writing student at OCAD U. They enjoy experimenting with genre and seeing how they interact on the page. Miranda is excited to explore their relationship to writing and the writing process now from the other side of the page with Pulse.</p>
+                        <p><button class="button">more coming soon</button></p> 
+                        </div>
+                        </div>
+                        </div>
+                <br>
+    
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Lynda</b></h4> 
+                        <p>Editor</p>
+                        <p>Lynda is in her final year of the Creative Writing program at OCAD U. She thinks she specializes in prose, but is also decent at poetry and has come to appreciate spoken word. She hardly gets spare time so when she does, she likes to watch Netflix and do absolutely nothing.</p>
+                        <p><button class="button">more coming soon</button></p> 
+                        </div>
+                        </div>
+                        </div>
+                <br>
+    
+
+         <div class="row">
+             <div class="card">
+                <div class="container">
+                <h4><b>Maha</b></h4> 
+                <p>Social Media Coordinator</p>
+                <p>Maha is a reader, writer, and book influencer who loves collecting books as much as she enjoys escaping into them. She spends most days procrastinating on life by daydreaming of worlds in her head that she can never quite get right on paper, but can also often be found curled up with her cat and a good book. She’s currently in her third year majoring in Creative Writing at OCAD University, with hopes of publishing books of her own one day or of working in the publishing industry to help others tell their stories.</p>
+                <p><button class="button">more coming soon</button></p> 
+                </div>
+                </div>
+                </div>
+
+                <br>
+
+         <div class="row">
+            <div class="card">
+                <div class="container">
+                <h4><b>Reem</b></h4> 
+                <p>Social Media Coordinator</p>
+                <p>Reem is a 3rd year Creative Writing major specializing in the intersection of literary and visual arts. In her time at OCADU she has lead the development of the creative journal "Petal Projections", and has expanded her social media and digital creation experience. Her multi-disciplinary work falls within the worlds of graphic design, content creation, makeup artistry, and creative directing. All of these passions tying into one another to fuel the themes of personhood and connectivity that her narratives often take.</p>
+                <p><button class="button">more coming soon</button></p> 
+                </div>
+                </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                <div class="card">
+                <div class="container">
+                <h4><b>Cameron</b></h4> 
+                <p>Special Events Coordinator</p>
+                <p>Cameron Atlas Chiovitti, creative writing student at OCAD University, uses poetry to explore what it means to be human through the context of their experiences. Some of Cameron’s most notable publications to date include FreezeRay Poetry, The Closed Eye Open, LSTW, and their self-published chapbook, Paint My Skin With Sweetness.</p>
+                <p><button class="button">more coming soon</button></p> 
+                </div>
+                </div>
+                </div>
+
+                <br>
+
+                <div class="row">
+                <div class="card">
+                <div class="container">
+                <h4><b>Jada</b></h4> 
+                <p>Special Events Coordinator</p>
+                <p>Jada White is a multi disciplinary artist based in the West end of Toronto. Her work often surrounds themes of identity, power and love. She explores these themes by creating fictional worlds that focus on platonic, familial and romantic dynamics as well as relationships. These explorations are more blatant in her writing and photography projects. She is currently studying at OCADU as a Creative Writing major.</p>
+                <p><button class="button">more coming soon</button></p> 
+                </div>
+                </div>
+                </div>
+
+                <br>
+
+                
+                    <div class="row">
+                    <div class="card">
+                    <div class="container">
+                    <h4><b>Roxane</b></h4> 
+                    <p>Proofreader & Formatter</p>
+                    <p>Roxane is a second year Creative Writing student who thrives on acquiring and excelling new skills. After spending years exploring the world through her many travels as a flight attendant and a sea turtle conservationist, she went back to university to further her passion for the language-based arts. In her first year, she’s had the pleasure of working with Anèl·lides to put together a children's educational E-book titled The Underwater Paradise.</p>
+                    <p><button class="button">more coming soon</button></p> 
+                    </div>
+                    </div>
+                    </div>
+
+                <br>
+
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Chauncey</b></h4> 
+                        <p>Proofreader & Formatter</p>
+                        <p>Chauncey is a second-year Creative Writing major at OCAD University with a certificate in English Literature and Popular Culture from Toronto Metropolitan. Focusing predominantly on poetry, with intentions to expand into other mediums, she explores language as a form of expulsion, intertwining visions of the mind to manifest a cathartic experience of thoughts, visualizations, and individuality. Her work was featured in "between starshine & clay" curated by Leaf Jerlefia.</p>
+                        <p><button class="button">more coming soon</button></p> 
+                        </div>
+                        </div>
+                        </div>
+
+                  <br>
+                         
+                        <div class="row">
+                            <div class="card">
+                            <div class="container">
+                            <h4><b>Hannah</b></h4> 
+                            <p>Production Manager</p>
+                            <p>Hannah is a fourth year creative writing student based in Montreal. She is passionate about reading and writing YA stories that coincidentally resemble her life. Other things Hannah loves include ASMR, her bunny Nike, and listening to one song on repeat for min. 3hrs.</p>
+                            <p><button class="button">more coming soon</button></p> 
+                            </div>
+                            </div>
+                            </div>
+                    <br>
+                        
+                                 
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Liam</b></h4> 
+                        <p>Production Manager</p>
+                        <p>Liam is a multi-disciplinary artist who enjoys exploring a plethora of mediums and themes. He is possessed by a deamon that feeds on misinformation; with every passing day, every growing year, his words become tainted by even more lies. There is only a matter of time until all they speak is fabrication, and all sound from his lips will become like sand. He enjoys painting minis, tabletop gaming, long walks through gardens, and pumpkin pie.</p>
+                        <p><button class="button">more coming soon</button></p> 
+                        </div>
+                        </div>
+                        </div>
+
+                        <br>
+
+                
+                        <div class="row">
+                            <div class="card">
+                            <div class="container">
+                            <h4><b>Arson</b></h4> 
+                            <p>Designer and Illustrator</p>
+                            <p>Arson Vremea is a spunky Illustration student with a passion for creative writing. In their illustrative practice Arson focuses on editorial illustration. While their main medium of choice is digital illustration, they have experience in various mediums and disciplines. Arson hopes to bring a different perspective of a visual artist, and create a unique look for the Pulse journal that would compliment the outstanding pieces within it.</p>
+                            <p><button class="button">more coming soon</button></p> 
+                            </div>
+                            </div>
+                            </div>
+
+
+                    <br>
+        
+                
+                    <div class="row">
+                        <div class="card">
+                        <div class="container">
+                        <h4><b>Ysabelle</b></h4> 
+                        <p>Web Designer & Content Writer</p>
+                        <p>Ysabelle is a third year Creative Writing student who is deeply interested in digital and online publication platforms. She currently strongholds two jobs while managing full-time studies and her practice. She enjoys reading and writing fiction and poetry, and dabbles a bit in non-fiction. Her other hobbies include hyperfixating on niche topics, obsessively planning out her future, and retail therapy. Her dream is to one day work at a publishing company.</p>
+                        <p><button class="button">more coming soon</button></p> 
+
+                        </div>
+                        </div>
+                        </div>
+                    
+                 
+    
+
+
+
+                        
+
+
+
+        </div>
+    </div>
+</div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <i class="fa fa-facebook-official w3-hover-opacity"></i>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <i class="fa fa-twitter w3-hover-opacity"></i>
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+     
+    </body>
+    </html>

@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+
+
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+/*trying something do not remove*/
+html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+
+/*font sizes*/
+h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 10%; /* IE10 */
+    flex: 10%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 70%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+</style>
+</head>
+<body>
+
+    <br>
+    <div w3-include-html="pulselogotopwebsite-copy"></div>
+    <img src="PulseLogoTopWebsite.jpg" alt="PulseLogo">
+  </br>
+  </body>
+
+ <!-- Navbar -->
+ <div class="w3-middle">
+  <div class="w3-bar w3-black w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+    <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About Pulse</a>
+    <a href="#team" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+    <div class="w3-dropdown-hover w3-hide-small">
+      <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+      <div class="w3-dropdown-content w3-bar-block w3-card-4">
+        <a href="poetrysubmissions.html" class="w3-bar-item w3-button">Poetry</a>
+        <a href="#" class="w3-bar-item w3-button">Fiction</a>
+        <a href="#" class="w3-bar-item w3-button">Non-Fiction</a>
+      </div>
+    </div>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About Pulse</a>
+  <a href="#team" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="poetrysubmissions.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: Poetry</a>
+  <a href="#fiction" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: Fiction </a>
+  <a href="#nonfiction" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: Non-fiction</a>
+</div>
+
+ </div>
+
+<br>
+
+<h2><b>Meet The Team</b></h2>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="PulseLogo8-modified.png" alt="Jane" style="width:100%">
+      <div class="container">
+        <h2><b>Catherine</b></h2>
+        <p class="title">Faculty Lead</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="Pulse_Divider_Spot4-modified.png" alt="PulseLogo8" height="150px"></br>
+      <div class="container">
+        <h2><b>Avi</b></h2>
+        <p class="title">Editor in Chief</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+  
+  <div class="column">
+    <div class="card">
+      <img src="PulseLogo8-modified.png" alt="John" style="width:100%">
+      <div class="container">
+        <h2><b>Claire</b></h2>
+        <p class="title">Managing Editor</p>
+        <p>Some text that describes me lorem ipsum ipsum lorem.</p>
+        <p>example@example.com</p>
+        <p><button class="button">Contact</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
