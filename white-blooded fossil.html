@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Title>PULSE - White-Blooded Fossil</Title>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* tiles */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
+  </style>
+</head>
+
+<body>
+  <br>
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="PulseLogoTopWebsite.jpg" alt="PulseLogo">
+</br>
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About PULSE</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="submissions1.html" class="w3-bar-item w3-button">I.</a>
+            <a href="submissions2.html" class="w3-bar-item w3-button">II.</a>
+            <a href="submissions3.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About PULSE</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="submissions1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="submissions2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="submissions3.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot1-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+        <h2><b>White-Blooded Fossil</b></h2>
+        <h4>by Nick Pico</h4>
+        <hr>
+        <p>The last thing I remember before going under was the anesthesiologist telling me in monotone not to pull the tubes out. It was funny, who would do such an idiotic thing? </p>
+        <p>The clock was obnoxiously utilitarian, it had no ornate filigree or gold flourishes to boast; it was black script emblazoned on a white field. The clock was the conductor of my pain, it was mounted on the wall—a crucifix in a church altar—facing my hospital bed. With a clockwise turn of its long and short hand batons the clock dictated the rhythm of the painkillers; every four hours the nurses would bless me a menagerie of drugs whose names eerily mirrored Latin incantations to exorcize the devils that plagued me.</p>
+        <p>I was Giger’s brainchild, a biomechanical nightmare of phallic pipes and plastic tubes inserted into my flesh. I had three drains—grenade shaped cups with a proboscis meant to milk blood and puss out of my wounds—two were in my neck and a third in my calf. A feeding tube had been wormed through my left nostril and down to my stomach, it was stitched secure to my septum; a white viscous fluid was pumped through it like Ash the android’s liquid latex blood in the first A   L   I   E   N film, the fluid was my only source of sustenance for the next two months. The feeding tube was accompanied by an IV, which I thought of fondly as an acceleration ramp the drugs took before racing down my highway of veins and arteries. The doctors—in preparation to the horrendous swelling (more on this later) that was to befall my face—plugged a tracheal tube into my airway, it was fixed at the base of my throat with sutures like a facehugger; to this day I can’t help but finger the scar the hole left in my neck. The tube was attached to a box I assumed to be an Iron Lung if Apple got their hands on it, stupidly simple in design yet offensively garish. All of these plastics, in their own uniquely agonizing way, restricted my movement, leashing still to the same walls as the clock like shackles in a chain gang, 
+        </p>
+        <p>It wasn’t the gash that ran down leg or the slit that smiled across my throat that caused me the most pain, it was the swelling that coiled around my neck and face like an anaconda. All the doctors like the king’s men could not put me back all together again, the bones and the major bloods vessels yes, but the plumbing for the water and other bodily fluids were left for my cells to figure out, nowhere for the water to go but to swell and stay stagnant.</p>
+        <p>	It was when the batons made their second lap—nighttime—that the clock would build to a crescendo, around one to three in the morning the pain would howl the loudest. It was like a storm, the doctors said, my face would swell and churn for about a week before it’ll get better. For the next seven days the drugs that I got hit harder and came in larger doses but even then, every night I’d sleep about only three hours if I was lucky.</p>
+        <p>It was my sixth night of pain, and I don’t know what exactly caused it, the lack of sleep or the mass of drugs uninhibited my mind to dream of contradicting impossibilities. The doctors switched me from two white pills whose names sounded like incoherent incantations to a tiny orange pill whose name was equally as incoherent as the last one. The nurses flushed it down my feeding tube, the water teasing my dessert throat with a cold cognac chill. I slept like I had for the last five nights—sat on the edge of the bed like in a church pew fearful of contracting pressure ulcers on my back—but I am certain I woke up a different person.</p>
+        <p>I did not feel, nor did I think, I believed myself—like honest to God religious faith—to be a fossil, not of any specific specimen but a gaggle of vertebras and femurs immaculately articulated for what I assumed to be the amusement of museum goers who gawked and squeaked away after a few minutes.</p>
+        <p>Frantic was my mind like rare songbirds in a cage, chirping unhinged thoughts; the loudest of all that I thunk was this quasi-lucid state of mind was what dead people must be. Entombed in a small space—non smaller than your body as a sarcophagus—with your consciousness nowhere to go but to sit still like Jonah in the whale,</p>
+        <p>I had no knowledge of who I was or what I was, just that I was once alive. It was like my mind was a series of bowling pins, I’d panic and throw a bowling ball knocking down nine of the ten pins but before the last pin falls, just before I complete a thought, the machine would reset and I’d panic again, throwing another ball hoping for a strike. Set after set I could not think of any other thought than that I was a fossil.</p>
+        <p>Through some miracle I reasoned with myself that if I was dead then I could not do what living things do—that if I was dead—I would not be able shit. I remembered where the bathroom was and what it was, but the last pin wouldn’t fall and I still couldn’t comprehend that if I knew those two things then I must be alive. So,</p>
+        <p>I started tugging at the tubes, the one in my throat—the tracheal tube—went first, I unscrewed one end from the machine, it went limp and rattled around the floor. The next to go was my feeding tube, I pulled at it until I felt what I thought was a burning ice pick being jabbed into sinuses; picked at realizing it had been stitched to my septum like a bull’s nose ring. That option was a non go so I unscrewed it from the infusion pumps; white fluid flooded out onto my gown—I believed it to be blood—and the longer it flowed out the faster I’d die—even though I also believed that I was already dead—long dead—a fossil—the white blooded fossil.</p>
+        <p>I scratched at the IV and pulled at the maze-like tubes like sorting out tangled up headphones, I followed the path of the tubes and realized it was plugged into the same pumps as my white blood. I followed the path further; it was all plugged into the wall. I tugged at it with all my might, detaching myself and the pumps like coyote caught in a long spring desperately gnawing at its captured leg, Free at last.</p>
+        <p>It must’ve been about a six-foot distance from my bed to the toilet but with all the tubes and drains and pipes and plastics rattling behind me like chains of the ghost of Christmas past it felt like the longest walk of my life.</p>
+        <p>	I made it in the bathroom, my eyes meeting themselves in the mirror, but I could not recognize what I saw, or who I saw, I was still the white blooded fossil. I hammered my ass down on the seat and pushed and pushed like a mother giving birth. It took a while but I managed to produce three meager little turds, floating like logs down the river. I reclined with great relief, I did not know who I was or what was happening—it did not hit me until I made it back to my bed to stare up at the clock, it read “3:06 AM”—with sweat dripping down my brow and drool dribbling down my chin I sighed… I am alive.</p>
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>
