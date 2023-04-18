@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Title>PULSE - i see your face</Title>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* tiles */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
+  </style>
+</head>
+
+<body>
+
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="Ysa_Header_Website3.png" alt="PulseLogo" style="width:100%">
+
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About PULSE</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="submissions1.html" class="w3-bar-item w3-button">I.</a>
+            <a href="submissions2.html" class="w3-bar-item w3-button">II.</a>
+            <a href="submissions3.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About PULSE</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="submissions1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="submissions2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="submissions3.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot1-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+        <h2><b>927 Days</b></h2>
+        <h4>by Hannah Peebles</h4>
+        <hr>
+        <p>The dead branches swayed gently in the breeze overhead, the tall trees void of any leaves. The few birds that remained chirped quietly in the evergreens that housed their nests. Snow whisked across the ground, creating ghost-like patterns that danced over the grass. A skittish fox, his pelt white for the coming winter, poked his head from his den before rushing off as footsteps approached. She carried nothing but a sack slung over her shoulder that was filled with herbs. A sword that had only ever been used once hung from the scabbard that was attached at her hip.</p>
+        <p>The figure paused, noticing the fox that scampered away into the undergrowth. She smiled, content that it had survived to see the approach of the new season. Just last spring, it had been injured in a fight, its hind legs and tail sustaining major wounds. After weeks of gaining its trust, she’d been able to carefully heal its leg, her knowledge in herbs coming in handy. Now- even though it ran from her, it would never forget what she’d done.</p>
+        <p>Continuing on, she gazed up at the sky through the mix of evergreens and dead trees, the delicate snowflakes falling softly on her face. She was glad for the oncoming winter, knowing it to be a time of peace and slumber in her wood. Yes, it was cold, and food was scarce, but she knew how to provide for herself, and knowing a little magic didn’t hurt either. It had become one of her greatest assets after she’d learned to master its capabilities.</p>
+        <p>Reaching the edge of the stream that bordered her home, she reached down and touched her hand to the surface of the rippling water. After a few moments, it froze from her touch and she walked quickly across, the ice receding once she’d made it to the other side. That simple trick wouldn’t be needed for much longer, as the cold weather would soon freeze the stream.</p>
+        <p>Walking past a family of deer that leapt away when she came near, she finally reached her small home, the quaint structure nestled in between a group of pine trees. She opened the door and shut it quickly, the wind sweeping a few stray snowflakes through the entrance. Her face turned up in a smile when she noticed her companion, Shade, curled up in the far corner. His dark brown tail was wrapped firmly around him, the tip covering his nose.</p>
+        <p>Removing the herbs she’d collected from her pack, she placed them on the small table that sat in the center of the room. Shade blinked open an eye but didn’t move. Among some of the herbs were feverfew, goldenseal, and ginger. They would be some of the last to grow before the cold set in. It didn’t take long for her to properly store the precious herbs. Grabbing a large canteen, she slung it over her shoulder along with her pack and set out from her home again.</p>
+        <p>The snow had picked up, large flakes falling heavily now, making it hard to see. Pausing, she used her finger to light a small glowing orb. It flew off in front of her, its light creating a path through the snow that was easy to follow. She skipped over the stream, this section narrower than on the other side of her home. She would’ve just gathered her water from here, but today she had other matters to attend to and her destination had a source of freshwater anyway.</p>
+        <p>She traveled for over an hour, enjoying the peace the wood brought her. Many creatures had taken shelter from the weather, but those she did see seemed content. Birds flitted from branch to branch, raining snow down on her that she simply shook off. A rabbit poked its head out of its burrow and scurried off, wary of the traveler. She even spotted a lone wolf from afar, its grey and white fur hard to make out in the snow. It blinked its amber eyes at her, and she held its gaze before it bounded off in between the trees.</p>
+        <p>When she finally reached her desired location, she set her canteen down under the small waterfall that trickled over a ledge before walking the short distance to the edge of the wood. She stood on the ridge and looked out over the land before her. The rolling hills were blanketed with white, courtesy of the snowfall. Beyond that, the mountains rose, tall and looming. Blinking, she used magic to magnify her sight and stared at the area she had come to see. To the west, the kingdom of Threndel, its massive castle somber with dark green banners hanging from its walls. In the east stood Namlock, its own white castle dull in the afternoon light. Between these two kingdoms were several large tents separated by a vast field. Men and women ran to and from these tents, carrying weapons and armour.</p>
+        <p>War.</p>
+        <p>Drawing her gaze from the scene, she sighed and removed her sword from its scabbard. She stuck it into the ground and headed for a tall willow tree. It was the only one in the forest, and she kept it alive every winter with her magic, changing the leaves to white during the first snow. Parting the willow’s drooping leaves, she ran her hands along them, the tree slowly changing colour.</p>
+        <p>Kneeling down on the dry ground, she picked up a slate of rock that rested against the trunk of the willow. She placed it on her knees and then removed a small knife that was hidden in the folds of her shirt. Grasping it tightly, she scratched a tiny mark into the slate. The 927th mark.</p>
+        <p>She ran her hand over the front of the slate and then the back, its texture rough. She’d have to get a new piece soon. Placing it back to lean against the trunk, she rose and slipped the small knife back into its hiding spot. She pushed back the leaves of the willow and went to retrieve her sword that was still stuck in the ground.</p>
+        <p>927 days. Two and a half years. She willed herself to remain calm, her hand clenching the hilt of her sword a little too tightly. As she looked out over the two kingdoms, too tired to will herself to magnify her sight again, she knew it wouldn’t end soon. The sword she held in her hand had only been used once, and not by her. She considered it saved from the brutality below. It would never be held up in triumph, its blade never slick with blood. It would never see the light of battle, not as long as she lived.</p>
+        <p>Breathing deeply, she slid it back into the scabbard and turned from the current events that angered her so. Wandering back to her canteen, it was very nearly full of water. Sealing it, she heaved it up over her shoulder and made her way back into the woods. She peered up through the trees, the sky darkening with the oncoming night. She’d make it home just in time.</p>
+        <p>She always did.</p>
+        <hr>
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>

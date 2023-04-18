@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Title>PULSE - Blockbuster</Title>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* tiles */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
+  </style>
+</head>
+
+<body>
+
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="Ysa_Header_Website3.png" alt="PulseLogo" style="width:100%">
+
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About PULSE</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="submissions1.html" class="w3-bar-item w3-button">I.</a>
+            <a href="submissions2.html" class="w3-bar-item w3-button">II.</a>
+            <a href="submissions3.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About PULSE</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="submissions1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="submissions2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="submissions3.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot1-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+        <h2><b>White Blue Jay</b></h2>
+        <h4>by Dylan Tepper</h4>
+        <hr>
+       <p>I am content, lying beneath a sun-dappled tree, gazing over the grassy hill and the line of trees that
+        reach out to touch the sky. It is peaceful here, serene. Flickers of sunlight stream down from the spaces
+        between the leaves and glitter on the forest floor. They seem to shift and shimmer across the dirt,
+        dancing like little stars in a universe of rotten leaves and six-legged things. The sun shines brightly
+        overhead. Tendrils of light reach for me and caress my skin with their soothing warmth. A pair of robins
+        perch on the branches above me and produce a rhythmic melody, a peaceful little song that reminds me
+        of summers long past. Memories creep into my mind: images of parks and pools, beaches and bicycles;
+        it puts a wan smile on my face. I miss those days. The summers were longer, the weather was better,
+        and my life simpler. I was a happier child than I am an adult. There was one summer, I can still
+        remember it clearly. I had followed a winding dirt path through a dense forest as I searched for wildlife.
+        Back then, I had the time to explore and uncover sights and sounds all new to me. I still envy the child I
+        was. I wish I could have prepared better, braced for how much change I’d have to experience and how
+        many burdens I would have to shoulder.</p>
+        <p>There was a small stream or brook blocking the rest of the path, but I remember distinctly that
+          there was a set of three broad stones protruding from the cold water. It was almost as though they had
+          been placed there intentionally. Perhaps they were. With a hop, a skip, and a jump I crossed from stone
+          to stone to stone and landed on the other side. Pushing deeper into the forest, I heard a bevy of sweet
+          sounds. Up in the branches, assorted songbirds sang their tunes. Robins with their red bellies and timid
+          disposition, mourning doves with their soft hoo-hoos; a few nuthatches racing up and down the tree
+          trunks, and big black ravens who peered at me from on high before sounding their great shrill caws and
+          taking to the wing. Something in the underbrush caught my eye: movement, the sound of little feet
+          shuffling through the thick vegetation. I held my breath and stood stone still. A pair of chipmunks
+          emerged hastily from the bushes and ferns. They were small and round with big soulful eyes and a slim
+          white stripe running down their cream-colored backs.</p>
+          <p>I always liked chipmunks. It was squirrels I disliked; they were nasty black rodents with rat faces
+            and bushy tails of wiry fur. At my house, they had always bullied the local chipmunks over food. Soon
+            they had driven them away altogether. But here in this heavenly forest, there weren’t any squirrels to
+            scare them off now. The pair ran straight up to me, regarded me warily for an instant, and then dashed
+            into a nearby burrow by the foot of a great oak tree.</p>
+            <p>For some peculiar reason, I had taken a great interest in it. The trunk was oddly thick and
+              weathered, long grooves and fissures ran up and down the bark, and dark spots scattered across its
+              length. The branches were particularly gnarled and there seemed to be a scarcity of leaves about them.
+              In some areas, moss clung heavily to it along with sprawling patches of lichen. This was an old man, I
+              thought. The branches were his limbs – old and frail and bony. The moss and lichen were his beard, a
+              carpet of living color that covered his wrinkled flesh.</p>
+              <p>I approached it slowly but tripped over something and nearly fell face first into the dirt. Knotted
+                roots jutted out from the ground, pale-white and reaching up at me like grasping talons. I caught myself
+                before I could fall but I must have made some ruckus for a surge of feathers and flapping wings burst from the tree and painted the sky black as they whipped through the air. From their screeches, I had
+                assumed they were crows. They had an ugly call, abrasive and loud, and sharp enough to split an ear.
+                But the closer I studied them, the more their feathers seemed to shimmer and shift from black to blue.</p>
+                <p>Blue jays: their shrill call pierced my soul like a razor blade. Its pitch was deadly and unending
+                  and though I tried to remain unmoved, I broke in the face of their raving cries. I wanted to run, to flee
+                  from the storm of feathers circling above but I found myself rooted to the floor, transfixed by the
+                  swirling black and blue and white. White. It remained perched on a crooked branch, alone. While all its
+                  brethren took to the sky, one clung to the canopy in defiance. A part of me wondered whether it took
+                  offense to the intrusive calls as well. I knew blue jays to be bullies. Often, I would see them mobbing
+                  other songbirds and even driving away hawks and herons. But to bully one of their own is a notion
+                  hauntingly human. The bird’s feathers were an unbroken stretch of blinding white and its eyes were a
+                  searing red. Yet I knew it for a jay because of its unmistakable crest which exhibited the same
+                  undeserved confidence as its peers’. The bird regarded me without a hint of wariness or fear, its bright
+                  red eyes studied me as though to read me like a tome. My pores were words on a page for it to
+                  consume in its delight. I cannot recall it ever once blinking in the few moments we stood face to face,
+                  two intelligent creatures reaching out to one another. I cannot say what the bird thought of me, but I
+                  can attest that in my humble opinion, it was a soft milky star in a galaxy as harsh and cold as the blue
+                  jay’s song.</p>
+                  <p>I was content to bask in the presence of a White Blue Jay.</p>
+        <hr>
+
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>
