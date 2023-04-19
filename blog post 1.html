@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Title>PULSE - Ysabelle</Title>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* tiles */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
+  </style>
+</head>
+
+<body>
+
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="Ysa_Header_Website3.png" alt="PulseLogo" style="width:100%">
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About PULSE</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="submissions1.html" class="w3-bar-item w3-button">I.</a>
+            <a href="submissions2.html" class="w3-bar-item w3-button">II.</a>
+            <a href="submissions3.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About PULSE</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="submissions1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="submissions2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="submissions3.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot2-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+       <h2><b>Our first PULSE fundraiser event—the Valentine’s Day edition of Writers With Typewriters!</b></h2>
+       <hr>
+       <h3><b>About Writers with Typewriters</b></h3>
+       <p>On February 7th & 8th of 2023, we invited the community to embrace love by commissioning typewritten poems in the spirit of Valentine's day! </p>
+       <p>Writers with Typewriters (Valentines Day edition) was hosted by the OCADU Creative Writing Program's literary journal, PULSE. The two-day event involved sweet candy, and even sweeter words. With Valentine’s Day approaching, the PULSE team was stationed in the main lobby of 100 McCaul creating meaningful commissioned poems wrapped beautifully with a little sweet treat included, helping to spread love. Members of the board wrote custom one-of-a-kind poems and letters for OCADU’s community of loved ones just before Valentine's Day. In the spirit of the season, and as an ode to the candygram, sweet treats were added on to even further sweeten these messages.</p>
+       <p>Using this elegant recipe of meaningful words, candy, and wax-sealed envelopes, we were able to spread love through the art of communication. We are so grateful to everyone who stopped by. If you missed the event, don’t worry! We will be featuring another typewriter pop-up at our launch event on April 25th from 8pm-11pm at Glad Day Bookshop.</p>
+       <p>You can RSVP <a href="https://www.eventbrite.com/e/pulse-literary-journal-launch-event-tickets-582365840907">here</a> to join Pulse, OCAD University’s Creative Writing Journal, as we celebrate the launch of our second Annual Print and Digital Journal!</p>
+      <h4><b>About Toronto Typewriters</b></h4>
+      <p>This event would not have been possible without the efforts of the lovely folks at Toronto Typewriters. By providing us the typewriters for our use throughout the duration of this event, they made all of this possible. Toronto Typewriters is a “team of typewriter and vintage communications enthusiasts who are looking to bring back lost forms of communication” ( via https://www.torontotypewriters.com/). We not only engaged in this desire as well, but felt wholly inspired and engaged in their sloganed practice of “Bringing Back the Art of Communication” (via https://www.torontotypewriters.com/).</p>
+      <h4><b>Love Stories</b></h4>
+      <p>Love was in the air as everyone raved over their own meaningful connections. PULSE’s Editorial Board sat enthusiastically listening and creating commissioned love poems. Insightful and genuine, these one-of-a-kind pieces represented the unique love stories within our community. Creative Writing students on the PULSE Editorial Board had the pleasure of listening to a variety of different love stories and dynamics.</p>
+      <h4><b>“Bringing Back the Art of Communication”:</b></h4>
+      <p>The joy of this event came not just in the chance to embrace love, but in the variety of meaningful relationships that we had the pleasure of learning about. We wrote love poems for families, we wrote self love poems, kind words for coworkers, words for nieces and nephews, loving partners, dear friends, and for just about any other dynamic or theme imaginable! Our typewritten poems were then decorated with ribbon, fastened with a wax-seal, and sweetened with candy! A powerful occurrence came forward when taking the time to hand-craft these meaningful bundles. Imagining the chain reaction of smiles these words would create in turn brought our own joyous grins. All of this connects us closer to Toronto Typewriters’ slogan of “Bringing Back the Art of Communication” (via https://www.torontotypewriters.com/).</p>
+      <p>In today’s fast-paced world, the appreciation and artistry of communication is easily overlooked. Writing on these vintage typewriters gave us a unique restoratively connective opportunity. The use of the typewriter comes with putting muscle into every character. The end result of this was unrushed, genuine, and thoughtful poetry. As Creative Writing students, we went into this event thinking we were the masters of the art of communication. In reality, this event provided us with what we had been deeply missing, the community, patience, love, and belonging behind communication.</p>
+      <h3><b>Thank You</b></h3>
+      <p>The event brought an empowering and refreshing air to it. Everyone present was gathered to discuss and spread love; Telling love stories back and forth through blushing faces and deep key clicks was what truly defined the Valentine’s Day edition of Writers with Typewriters. We want to emphasise how grateful we are for this wonderful and energetic community. The team at PULSE is truly inspired by your stories and is incredibly grateful for your continuous support.</p>
+      <p>We are also excited to announce that we will once again be inspired and supported by the folks at Toronto Typewriters. Mark your calendars for our Literary Journal Launch Event on April 25th 2023 from 8pm-11pm, where we will be featuring a collaborative and connective typewriter pop-up. As our mission statement reads: “Pulse is made by students for students to explore and experiment with language and text without restrictions. We commit ourselves to accepting many modes of epistemic understanding and ways of contributing to knowledge. We welcome messiness and roughness and imperfection as an authentic record of creative process.” Thank you deeply for your interest in Pulse, and for giving us the pleasure to create with you.</p>
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>

@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html>
+  <html lang="en"></html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="UTF-8">
+<link rel="stylesheet" href="stylesheet.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<Title>PULSE - Ysabelle</Title>
+
+<style>
+  body {font-family: Arial, Helvetica, sans-serif}
+  .mySlides {display: none}
+  </style>
+  </head>
+  <body>
+  
+  <style>
+  
+  /*trying something do not remove*/
+  html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+  }
+  
+  img {
+      padding: 0;
+      display: block;
+      margin: 0 auto;
+      max-height: 100%;
+      max-width: 100%;
+  }
+  
+  
+  /*font sizes*/
+  h1 {
+    font-size: 70px;
+  }
+  
+  h2 {
+      font-size: 40px;
+  }
+  
+  h3 {
+      font-size: 30px;
+  }
+  
+  h4 { 
+      font-size: 25px;
+  }
+  
+  p {
+      font-size: 20px;
+  
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  /* Add a gray background color with some padding */
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background:white;
+  }
+  
+  /* Header/Blog Title */
+  .header {
+    padding: 20px;
+    font-size: 40px;
+    text-align: center;
+    background: white;
+  }
+  
+  /* Column container */
+  .row {  
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    -ms-flex-wrap: wrap; /* IE10 */
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    -ms-flex: 6%; /* IE10 */
+    flex: 6%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  .main {   
+    flex: 75%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* tiles */
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  img {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+  
+  </style>
+</head>
+
+<body>
+
+  <div w3-include-html="pulselogotopwebsite-copy"></div>
+  <img src="Ysa_Header_Website3.png" alt="PulseLogo" style="width:100%">
+
+</body>
+
+    
+<body>
+
+    <!-- Navbar -->
+    <div class="w3-middle">
+      <div class="w3-bar w3-black w3-card">
+        <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+        <a href="index.html" class="w3-bar-item w3-button w3-padding-large">Home</a>
+        <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About PULSE</a>
+        <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large w3-hide-small">About the Team</a>
+        <div class="w3-dropdown-hover w3-hide-small">
+          <button class="w3-padding-large w3-button" title="More">Submissions <i class="fa fa-caret-down"></i></button>     
+          <div class="w3-dropdown-content w3-bar-block w3-card-4">
+            <a href="submissions1.html" class="w3-bar-item w3-button">I.</a>
+            <a href="submissions2.html" class="w3-bar-item w3-button">II.</a>
+            <a href="submissions3.html" class="w3-bar-item w3-button">III.</a>
+            <a href="guidelines.html" class="w3-bar-item w3-button">Submission Guidelines</a>
+
+          </div>
+        </div>
+        <a href="mailto:ocadupulse@gmail.com" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-envelope"></i></a>  
+      </div>
+    </div>
+
+<!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="aboutpulse.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About PULSE</a>
+  <a href="abouttheteam.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">About the Team</a>
+  <a href="submissions1.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: I</a>
+  <a href="submissions2.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: II</a>
+  <a href="submissions3.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submissions: III</a>
+  <a href="guidelines.html" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">Submission Guidelines</a>
+
+  
+</div>
+
+
+<!--side column!-->
+     <div class="row">
+     <div class="side">
+        <br>
+          <img src="Pulse_Divider_Spot2-modified.png" alt="PulseLogo8" height="150px"></br>
+  <h3>
+    <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+    <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+    <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a>
+    <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <h4>Follow us!</h4>
+  </h3>
+    </div>
+
+<!--main column!-->
+
+      <div class="main">
+        <h2><b>About the Launch</b></h2>
+        <p>PULSE’s launch event is about celebrating the work of all the wonderful contributors, as well as the PULSE Editorial Board. PULSE is a vitally needed publication with the mission to showcase the works of OCAD University Creative Writing students. This event is a true celebration of all efforts behind the PULSE Annual Print & Digital Journal. Contributors to the journal have created wonderful prodigious works that truly showcase the artistry and talents held by the OCAD University Creative Writing program.</p>
+        <p>The Editorial Board of PULSE are incredibly familiar with the dedication behind these efforts. This student run journal has been a project the editorial board has approached with a passion for effectively showcasing these wonderful works. The culmination of these endeavours is the second edition of PULSE. Our Literary Journal Launch Event is an occasion celebrating this hard work. This will be the first look the public gets at this piece of OCAD U Creative writing history.</p>
+        <h4><b>About the Journal</b></h4>
+        <p>The PULSE journal is a collection of student writing, but what sets it apart from other student publications is that it is also completely produced by students. In this way it is as genuine and unique a publication as you will find. PULSE’s Editorial Board is composed of dedicated students with a passion for both the art of writing, and community publication. As students with a deep appreciation for the Creative Writing program at OCAD University, the team has been honoured to come together in the production of the 2nd Issue of PULSE. The Journal itself reflects this passion. This vital publication not only increases the visibility of student work, but serves as a piece of OCAD University's rich history. </p>
+        <p>The Creative Writing program, along with the PULSE journal, are both new additions to the University. As they now expand past their infancy stages, The first wave of Creative Writing Major students are set to be graduating by the end of this term. The program's recognition and prestige at the University is notable. The PULSE journal is a reflection of this unique prodigal skill. The artistry within these works is as inspiringly whimsical as it is impressively skillful. Spanning across both the pages of the Print Journal, and the tabs of the Digital Journal, the literary works compiled reflect a community of accomplished visionaries.</p>
+        <p>The Journals release on April 25th is an endeavour worth immense celebration. We look forward to your enjoyment of this compilation of student work, which is currently available for pre order <a href="https://docs.google.com/forms/d/e/1FAIpQLSfk59i1j-mII9BWfoeYhIunA4RTdFXl8XTEJ5dUwS1NoH0_vQ/viewform">here</a>, and will be available for sale at the launch event at $10/copy.</p>
+        <h4><b>Event Itinerary and Collaborations</b></h4>
+        <p>The PULSE Literary Journal Launch Event is set to celebrate the creative works and efforts behind the student-run journal PULSE on April 25th from 8pm-11pm. The event will be taking place at Glad Day Bookshop. “Glad Day Bookshop is the oldest queer bookstore in the world. Serving the LGBTQ community since 1970, [they] offer the widest possible selection of lesbian, gay, bisexual, trans, two-spirit, and queer literature.” (via https://www.gladdaybookshop.com/). The PULSE Board is thrilled to be hosting our Literary Journal Launch event in this vital space. Catering will be provided by the hardworking folks at Glad Day Bookshop. Entrance to the event is Pay What You Can, to be paid at the door, which will go towards solidifying the future of PULSE as we continue to grow and become a staple for the creative writing program.</p>
+        <p>Featured at the event will be a typewriter pop-up hosted by Toronto Typewriters! Toronto Typewriters is a “team of typewriter and vintage communications enthusiasts who are looking to bring back lost forms of communication”(via https://www.torontotypewriters.com/). As the event takes place, guests are welcome to work alongside one another in a ‘finish the story’ style pop-up available throughout the duration of the event. Attendees are encouraged to stretch their writing skills and collaborate on a series of typewritten tales. This would not be possible without the lovely folks at Toronto Typewriters, dedicated to “Bringing Back the Art of Communication.”</p>
+        <p>The PULSE Literary Journal itself will be for sale throughout the duration of the event at $10/copy. Select pre orders will be distributed at the Pulse Literary Journal Launch Event. With the release of the journal being the focal point of the event, the PULSE team is incredibly excited for the availability of the journals at the event. Incredibly enthused to celebrate the student work compiled in the journal, the team has also collaborated with an organisation with a similar, if not identical mission to their own.</p>
+        <p>PULSE has collaborated with the OCAD University Creative Writing Program’s Friday Nights on the Mic to host an open mic reading space. Those attending the journal’s launch are welcome to sign-up on a first come first serve basis to read. A sign-up sheet will be available at the event, sign-up’s closing at 8:30pm. Leading the way prior to this open mic are the journal's contributors, who will be reading their accepted works from the PULSE Journal aloud in a professional debut. Afterwards, the open mic event will be opened up to the public, featuring original works by the PULSE editorial board.</p>
+        <p>The PULSE Editorial Board is incredibly thankful to all who contributed to the content, the production, and the design of the journal, as well as the wonderful launch event. The development of this journal was truly an exceptional process that could not have thrived to the same degree without the dedication of all involved.</p>
+        <h2><b>Join us on April 25th!</b></h2>
+        <p> To learn more about the event and RSVP, click <a href="https://www.eventbrite.com/e/pulse-literary-journal-launch-event-tickets-582365840907">here</a>. We look forward to celebrating with you on April 25th from 8pm-11pm at Glad Day Bookshop.</p>
+
+      
+      
+        </div>
+      </div>
+
+<!-- Footer img -->
+<img src="Pulse_Divider_Spot3.png" class="w3-image w3-greyscale-min" style="width:40%">    
+ 
+<!-- Footer -->
+<footer class="w3-container w3-padding-64 w3-center w3-opacity w3-greyscale-min w3-xlarge">
+  <a href="https://www.facebook.com/ocadupulse/?locale=ms_MY"><i class="fa fa-facebook-official w3-hover-opacity"></i></a>
+  <a href="https://www.instagram.com/ocadupulse/?igshid=YmMyMTA2M2Y%3D"> <i class="fa fa-instagram w3-hover-opacity"></i></a>
+  <a href="https://twitter.com/ocadupulse"><i class="fa fa-twitter w3-hover-opacity"></i></a> 
+  <a href="https://www.linkedin.com/company/pulse-annual-print-digital-journal/about/"> <i class="fa fa-linkedin w3-hover-opacity"></i></a>
+  <p class="w3-medium"><a href="https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_templates_band&stacked=h" target="_blank">w3.css</a></p>
+</footer>
+ 
+     
+
+<script>
+  // Used to toggle the menu on small screens when clicking on the menu button
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else { 
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+  
+  // When the user clicks anywhere outside of the modal, close it
+  var modal = document.getElementById('ticketModal');
+  window.onclick = function(event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  </script>
+
+    </body>
+    </html>
